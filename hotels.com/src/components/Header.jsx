@@ -146,7 +146,7 @@ function Header() {
 
 
             <div>
-              <Button className={classes.button} onClick={handleFlagOpen}><FlagIcon color='primary' /><ArrowDropDownIcon color='primary' /></Button>
+              <Button className={classes.button} onClick={handleFlagOpen}><FlagIcon color='inherit' /><ArrowDropDownIcon color='inherit' /></Button>
               <Dialog open={open1} onClose={handleClose} style={{ width: '100%' }}>
                 <DialogTitle><ClearIcon style={{ marginBottom: -5, marginRight: 20 }} onClick={handleClose} /><b>Our global sites</b></DialogTitle>
                 <Divider />
@@ -167,7 +167,7 @@ function Header() {
 
 
             <div>
-              <Button className={classes.button} onClick={handleClickOpen}>{value}<ArrowDropDownIcon color='primary' /></Button>
+              <Button className={classes.button} onClick={handleClickOpen}>{value}<ArrowDropDownIcon color='inherit' /></Button>
               <Dialog open={open} onClose={handleClose}>
                 <DialogTitle><ClearIcon style={{ marginBottom: -5, marginRight: 20 }} onClick={handleClose} /><b>Select Currency</b></DialogTitle>
                 <Divider />
