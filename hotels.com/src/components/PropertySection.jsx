@@ -16,9 +16,9 @@ const useStyles = makeStyles((theme) => ({
         fontSize: 15,
         padding: '12px',
         margin: theme.spacing(1),
-    borderRadius: "5em",
-    color: '#156bc1',
-    marginBottom: '20px',
+        borderRadius: "5em",
+        color: '#156bc1',
+        marginBottom: '20px',
     },
     text: {
         fontSize: 24,
@@ -161,7 +161,7 @@ function PropertySection() {
 <Button variant="outlined" className={classes.button}> <b>See more</b> </Button>
 
 
-            <Divider style={{ marginBottom: 70, marginRight: 100, marginLeft: 150 }} />
+            <Divider style={{ marginBottom: 25, marginRight: 100, marginLeft: 150 }} />
 
 
         </div>

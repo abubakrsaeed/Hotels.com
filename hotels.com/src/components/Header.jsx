@@ -135,7 +135,7 @@ function Header() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="fixed" color="white" elevation={0} >
+      <AppBar position="absolute" color="white" elevation={0} >
         <ThemeProvider theme={theme2}>
           <Toolbar style={{ marginRight: '7%' }}>
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Hotels.com_logo.svg/1280px-Hotels.com_logo.svg.png" className={classes.logo} alt="Hotels.com"
