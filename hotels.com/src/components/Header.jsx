@@ -18,6 +18,7 @@ import FlagIcon from '@material-ui/icons/Flag';
 import Divider from '@material-ui/core/Divider';
 import ClearIcon from '@material-ui/icons/Clear';
 import EventNoteIcon from '@material-ui/icons/EventNote';
+import Grid from '@material-ui/core/Grid'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -230,10 +231,16 @@ function Header() {
 
           </Toolbar>
         </ThemeProvider>
-        <Toolbar style={{ marginTop: '-20px', marginLeft: '10.7%', fontSize: 13 }}>
+        <Toolbar style={{ marginTop: '-20px', marginLeft: '40px',  fontSize: 13 }}>
+          <Grid container>
+            <Grid item xs={5} sm={5} lg={5}>
           <Link style={{ marginRight: 25, color: '#333333' }}>Groups & Meetings</Link>
+          
           <Link style={{ marginRight: 25, color: '#333333' }}>List your property</Link>
+          
           <Link style={{ color: '#333333' }}>Hotels.com® Rewards</Link>
+          </Grid>
+          </Grid>
         </Toolbar>
       </AppBar>
     </div>

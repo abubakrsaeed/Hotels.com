@@ -51,14 +51,21 @@ function SafetySection() {
         <div>
 
             <Container maxWidth="lg">
-                <Typography className={classes.text} variant="h2" align="left" style={{ marginLeft: "-25px" }}>
+
+                <Grid container>
+                    <Grid item md={12}>
+                <Typography className={classes.text} variant="h2" align="left">
                     <b>Travel with confidence</b>
                 </Typography>
-                <Typography variant="body1" align="left" style={{ marginLeft: "-25px", marginTop: 10, color: '#333333', fontSize: 17 }}>
+                <Typography variant="body1" align="left" style={{ marginTop: 10, color: '#333333', fontSize: 17 }}>
                     Many properties have updated us about their enhanced health and safety measures. So, during your search, you may find details like:
                 </Typography>
-                <Grid container spacing={0} style={{ margin: '5px -35px 10px' }}>
-                    <Grid item sm={6}>
+                </Grid>
+                </Grid>
+
+
+                <Grid container style={{ margin: '5px -20px 10px' }}>
+                    <Grid item md={6}>
 
                         <Card className={classes.root} elevation={0}>
 
@@ -77,7 +84,7 @@ function SafetySection() {
                     </Grid>
 
 
-                    <Grid item sm={6}>
+                    <Grid item sm={12} md={6}>
 
                         <Card className={classes.root} elevation={0}>
 
@@ -95,7 +102,7 @@ function SafetySection() {
                     </Grid>
 
 
-                    <Grid item sm={6}>
+                    <Grid item sm={12} md={6}>
 
                         <Card className={classes.root} elevation={0}>
 
@@ -111,7 +118,7 @@ function SafetySection() {
                         </Card>
                     </Grid>
 
-                    <Grid item sm={6}>
+                    <Grid item sm={12} md={6}>
 
                         <Card className={classes.root} elevation={0}>
 
@@ -131,8 +138,8 @@ function SafetySection() {
             <Divider style={{ marginBottom: 25, marginRight: 100, marginLeft: 150 }} />
 
             <Container maxWidth="md">
-                <Grid container spacing={0} style={{ margin: '5px -35px 10px' }}>
-                    <Grid item sm={6}>
+                <Grid container style={{ margin: '5px' }}>
+                    <Grid item md={6}>
 
                         <Card className={classes.root} elevation={0}>
 
@@ -148,13 +155,13 @@ function SafetySection() {
                         </Card>
                     </Grid>
 
-                    <Grid item sm={6}>
+                    <Grid item md={6}>
 
                         <Card className={classes.root} elevation={0}>
 
                             <CardContent>
                                 <CardMedia
-                                    style={{ marginTop: "20px", marginLeft: "-10px" }}
+                                    style={{ marginTop: "20px" }}
                                     className={classes.media2}
                                     image="https://a.cdn-hotels.com/kesstatic/16cb9904184e8e153945.png"
                                 />

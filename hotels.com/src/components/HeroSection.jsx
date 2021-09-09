@@ -26,8 +26,9 @@ const HeroSection = () => {
 
     const classes = useStyles();
     return (
-       <div className={classes.root}>
-
+<div>
+        <Grid item lg={12} className={classes.root}>
+       </Grid>
        </div>
         
     );

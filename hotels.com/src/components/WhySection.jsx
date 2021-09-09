@@ -37,11 +37,11 @@ function WhySection() {
         <div>
          
                 <Container maxWidth="lg" style={{marginTop: "30px"}}>
-                    <Typography className={classes.text} variant="h2" align="left" style={{marginLeft: "-25px"}}>
+                    <Typography className={classes.text} variant="h2" align="left">
                         <b>Why book with Hotels.com?</b>
                     </Typography>
-                    <Grid container spacing={0} style={{ margin: '5px -35px 10px' }}>
-                        <Grid item sm={4}>
+                    <Grid container style={{ margin: '5px -15px 10px' }}>
+                        <Grid item md={4}>
 
                             <Card className={classes.root} elevation={0}>
 
@@ -60,7 +60,7 @@ function WhySection() {
                         </Grid>
 
 
-                        <Grid item sm={4}>
+                        <Grid item md={4}>
 
                             <Card className={classes.root} elevation={0}>
 
@@ -78,7 +78,7 @@ function WhySection() {
                         </Grid>
 
 
-                        <Grid item sm={4}>
+                        <Grid item md={4}>
 
                             <Card className={classes.root} elevation={0}>
 

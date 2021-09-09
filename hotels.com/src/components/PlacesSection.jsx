@@ -43,20 +43,24 @@ function PlacesSection() {
         <div>
 
             <Container maxWidth="lg">
-                <Typography className={classes.text} variant="h2" align="left" style={{ marginLeft: "-35px" }}>
+                <Grid container>
+                    <Grid item md={12}>
+                <Typography className={classes.text} variant="h2" align="left">
                     <b>We do more than just hotels...</b>
                 </Typography>
+                </Grid>
+                </Grid>
 
             </Container>
 
 
 
 
-            <Container maxWidth="xl" style={{ marginTop: 15 }}>
+            <Container maxWidth="lg" style={{ marginTop: 15 }}>
 
 
-                <Grid container spacing={0} align="center">
-                    <Grid item sm={2} style={{marginLeft: 135}}>
+                <Grid container align="center">
+                    <Grid item xs={12} sm={6} md={3} lg={2}>
 
                         <Card className={classes.root} elevation={0}>
 
@@ -66,7 +70,7 @@ function PlacesSection() {
                                     image="https://a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/holiday_homes.jpg?impolicy=fcrop&w=188&h=106&q=high"
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom variant="h3" component="h2" align="left" style={{ fontSize: 17, marginLeft: 22 }}>
+                                    <Typography gutterBottom variant="h3" component="h2" align="center" style={{ fontSize: 17 }}>
                                         <b>Holiday homes</b>
                                     </Typography>
                                 </CardContent>
@@ -77,7 +81,7 @@ function PlacesSection() {
                     </Grid>
 
 
-                    <Grid item sm={2} style={{ marginLeft: -50 }}>
+                    <Grid item xs={12} sm={6} md={3} lg={2}>
 
                         <Card className={classes.root} elevation={0}>
 
@@ -87,7 +91,7 @@ function PlacesSection() {
                                     image="https://a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/apartments.jpg?impolicy=fcrop&w=188&h=106&q=high"
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom variant="h3" component="h2" align="left" style={{ fontSize: 17, marginLeft: 22 }}>
+                                    <Typography gutterBottom variant="h3" component="h2" align="center" style={{ fontSize: 17 }}>
                                         <b>Apartments</b>
                                     </Typography>
                                 </CardContent>
@@ -98,7 +102,7 @@ function PlacesSection() {
                     </Grid>
 
 
-                    <Grid item sm={2} style={{ marginLeft: -50 }}>
+                    <Grid item xs={12} sm={6} md={3} lg={2} >
 
                         <Card className={classes.root} elevation={0}>
 
@@ -108,7 +112,7 @@ function PlacesSection() {
                                     image="https://a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/hotels.jpg?impolicy=fcrop&w=188&h=106&q=high"
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom variant="h3" component="h2" align="left" style={{ fontSize: 17, marginLeft: 22 }}>
+                                    <Typography gutterBottom variant="h3" component="h2" align="center" style={{ fontSize: 17 }}>
                                         <b>Hotels</b>
                                     </Typography>
                                 </CardContent>
@@ -117,7 +121,7 @@ function PlacesSection() {
                         </Card>
                     </Grid>
 
-                    <Grid item sm={2} style={{marginLeft: -50}}>
+                    <Grid item xs={12} sm={6} md={3} lg={2} >
 
                         <Card className={classes.root} elevation={0}>
 
@@ -127,7 +131,7 @@ function PlacesSection() {
                                     image="https://a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/resorts.jpg?impolicy=fcrop&w=188&h=106&q=high"
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom variant="h3" component="h2" align="left" style={{ fontSize: 17, marginLeft: 22 }}>
+                                    <Typography gutterBottom variant="h3" component="h2" align="center" style={{ fontSize: 17 }}>
                                         <b>Resorts</b>
                                     </Typography>
                                 </CardContent>
@@ -136,7 +140,7 @@ function PlacesSection() {
                         </Card>
                     </Grid>
 
-                    <Grid item sm={2} style={{marginLeft: -50}}>
+                    <Grid item xs={12} sm={6} md={3} lg={2}>
 
                         <Card className={classes.root} elevation={0}>
 
@@ -146,7 +150,7 @@ function PlacesSection() {
                                     image="https://a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/hostels.jpg?impolicy=fcrop&w=188&h=106&q=high"
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom variant="h3" component="h2" align="left" style={{ fontSize: 17, marginLeft: 22 }}>
+                                    <Typography gutterBottom variant="h3" component="h2" align="center" style={{ fontSize: 17 }}>
                                         <b>Hostels</b>
                                     </Typography>
                                 </CardContent>
@@ -155,7 +159,7 @@ function PlacesSection() {
                         </Card>
                     </Grid>
 
-                    <Grid item sm={2} style={{marginLeft: -50}}>
+                    <Grid item xs={12} sm={6} md={3} lg={2}>
 
                         <Card className={classes.root} elevation={0}>
 
@@ -165,7 +169,7 @@ function PlacesSection() {
                                     image="https://a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/country_retreats.jpg?impolicy=fcrop&w=188&h=106&q=high"
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom variant="h3" component="h2" align="left" style={{ fontSize: 17, marginLeft: 22 }}>
+                                    <Typography gutterBottom variant="h3" component="h2" align="center" style={{ fontSize: 17 }}>
                                         <b>Country retreats</b>
                                     </Typography>
                                 </CardContent>

@@ -42,14 +42,17 @@ function PropertySection() {
 
         <div>
 
-            <Container maxWidth="lg" style={{ marginTop: "-50px" }}>
-                <Typography className={classes.text} variant="h2" align="left" style={{ marginLeft: "-25px" }}>
+            <Container maxWidth="lg" style={{ marginTop: "-50px"}}>
+               <Grid container>
+                   <Grid item md={12}	>  
+                <Typography className={classes.text} variant="h2" align="left">
                     <b>A snapshot of the world’s most picture-perfect properties</b>
                 </Typography>
-                <Typography variant="body1" align="left" style={{ marginLeft: "-25px", marginTop: 10, color:'#333333', fontSize: 17 }}>
+                <Typography variant="body1" align="left" style={{ marginTop: 10, color:'#333333', fontSize: 17 }}>
                     Check out some of our favourite unique stays
                 </Typography>
-
+                </Grid>
+                </Grid>
 
 
             </Container>
@@ -57,11 +60,11 @@ function PropertySection() {
 
 
 
-            <Container maxWidth="xl" style={{ marginTop: 15 }}>
+            <Container maxWidth="lg" style={{ marginTop: 20}}>
 
 
-                <Grid container spacing={0} align="center">
-                    <Grid item sm={3} style={{marginLeft: 135}}>
+                <Grid container spacing={2} align="left">
+                    <Grid item xs={12} sm={6} md={3}>
 
                         <Card className={classes.root} elevation={0}>
 
@@ -85,7 +88,7 @@ function PropertySection() {
                     </Grid>
 
 
-                    <Grid item sm={3} style={{ marginLeft: -65 }}>
+                    <Grid item xs={12} sm={6} md={3}>
 
                         <Card className={classes.root} elevation={0}>
 
@@ -109,7 +112,7 @@ function PropertySection() {
                     </Grid>
 
 
-                    <Grid item sm={3} style={{ marginLeft: -65 }}>
+                    <Grid item xs={12} sm={6} md={3}>
 
                         <Card className={classes.root} elevation={0}>
 
@@ -131,7 +134,7 @@ function PropertySection() {
                         </Card>
                     </Grid>
 
-                    <Grid item sm={3} style={{marginLeft: -65}}>
+                    <Grid item xs={12} sm={6} md={3}>
 
                         <Card className={classes.root} elevation={0}>
 
