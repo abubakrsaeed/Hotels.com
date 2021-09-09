@@ -339,7 +339,7 @@ function Footer() {
       </div>
             </List>
 
-            <div>
+            <div style={{marginBottom: '15px'}}>
             <img src="https://a.cdn-hotels.com/kesstatic/3fdde48fcdd669e08354.svg" className={classes.logo} alt=""
               style={{ padding: '0px 33% 0px 0px' }} />
               <Typography className={classes.text} align="left"> * Some hotels require you to cancel more than 24 hours before check-in. Details on site. </Typography>
