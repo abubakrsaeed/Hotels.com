@@ -49,6 +49,13 @@ const useStyles = makeStyles((theme) => ({
   inputRoot: {
     color: 'inherit',
   },
+
+  sectionDesktop: {
+    display: 'none',
+    [theme.breakpoints.up("md")]: {
+      display: 'flex',
+    },
+  },
 }));
 
 const theme2 = createTheme({
@@ -185,7 +192,7 @@ function Header() {
               </Dialog>
             </div>
 
-
+<div className={classes.sectionDesktop}>
             <div>
               <Button
                 className={classes.button}
@@ -227,7 +234,8 @@ function Header() {
 
             <Button className={classes.button} color='inherit' href='/'> <EventNoteIcon style={{marginRight: 8 }}/> Your bookings </Button>
             <Button className={classes.button} color='inherit' href='/signin'> Sign in </Button>
-
+            
+            </div>
 
           </Toolbar>
         </ThemeProvider>

@@ -8,7 +8,6 @@ import CardContent from '@material-ui/core/CardContent';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
     button: {
@@ -82,61 +81,47 @@ function PlacesSection() {
 
 
                     <Grid item xs={12} sm={6} md={3} lg={2}>
-
                         <Card className={classes.root} elevation={0}>
-
                             <CardActionArea>
                                 <CardMedia
                                     className={classes.media}
-                                    image="https://a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/apartments.jpg?impolicy=fcrop&w=188&h=106&q=high"
-                                />
+                                    image="https://a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/apartments.jpg?impolicy=fcrop&w=188&h=106&q=high"/>
                                 <CardContent>
                                     <Typography gutterBottom variant="h3" component="h2" align="center" style={{ fontSize: 17 }}>
                                         <b>Apartments</b>
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-
                         </Card>
-
                     </Grid>
 
-
                     <Grid item xs={12} sm={6} md={3} lg={2} >
-
                         <Card className={classes.root} elevation={0}>
-
                             <CardActionArea>
                                 <CardMedia
                                     className={classes.media}
-                                    image="https://a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/hotels.jpg?impolicy=fcrop&w=188&h=106&q=high"
-                                />
+                                    image="https://a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/hotels.jpg?impolicy=fcrop&w=188&h=106&q=high"/>
                                 <CardContent>
                                     <Typography gutterBottom variant="h3" component="h2" align="center" style={{ fontSize: 17 }}>
                                         <b>Hotels</b>
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-
                         </Card>
                     </Grid>
 
                     <Grid item xs={12} sm={6} md={3} lg={2} >
-
                         <Card className={classes.root} elevation={0}>
-
                             <CardActionArea>
                                 <CardMedia
                                     className={classes.media}
-                                    image="https://a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/resorts.jpg?impolicy=fcrop&w=188&h=106&q=high"
-                                />
+                                    image="https://a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/resorts.jpg?impolicy=fcrop&w=188&h=106&q=high"/>
                                 <CardContent>
                                     <Typography gutterBottom variant="h3" component="h2" align="center" style={{ fontSize: 17 }}>
                                         <b>Resorts</b>
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-
                         </Card>
                     </Grid>
 
